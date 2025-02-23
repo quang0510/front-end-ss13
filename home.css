@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Header */
+.container {
+    padding: 20px;
+    background-color: #e5e5e5;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  height: 100px;
+  background-color: #ffffff;
+  padding: 0 100px 0 54px;
+  border-bottom: 1px solid #dadada;
+}
+
+.logo {
+  height: 41px;
+  width: 185px;
+}
+
+.header-middle {
+  display: flex;
+  gap: 75px;
+}
+
+.link {
+  color: #000000;
+  line-height: 24px;
+  font-weight: 500;
+  transition: all 0.1s linear;
+}
+
+.link:hover {
+  opacity: 0.6;
+}
+
+.header-right {
+  display: flex;
+  gap: 45px;
+}
+
+.header .icon {
+  height: 28px;
+  width: 28px;
+  object-fit: cover;
+}
+
+.banner{
+
+}
+.banner .image-1{
+    width: 1440px;
+    height: 716px;
+    position: relative;
+
+}
+.banner .image-2{  
+    width: 643px;
+    height: 443px;
+    position: absolute;
+    top: 328px;
+    right: 58px ;
+    bottom: 237px;
+    left: 739px;
+
+}
+.product-range .browse{
+    text-align: center;
+}
+.browse{
+    padding: 56px 432px 62px 449px;
+   
+}
+.browse-images{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.browse-images img{
+    width: 381px;
+    height: 480px;
+    object-fit: cover;
+}
+.room{
+    display: flex;
+    align-items: center;
+}
+.dining-room{
+    padding-top: 30px;
+    padding-left: 300px;
+}
+.living-room{
+    padding-top: 30px;
+    padding-left: 380px;
+}
+.bedroom{
+    padding-top: 30px;
+    padding-left: 350px;
+}
+.product-range .room a{
+    color: black;
+}
